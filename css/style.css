@@ -29,6 +29,8 @@ button {
     overflow-x: hidden;
 }
 
+
+
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -86,4 +88,83 @@ font-family: 'Work Sans', sans-serif; */
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+.william__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.william__title{
+    max-width: 609px;
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 140%;
+    margin-bottom: 31px;
+}
+.william__title span{
+    color: #F50103;
+}
+
+.william{
+    padding-top: 165px;
+}
+
+.william__txet{
+    font-size: 22px;
+    max-width: 664px;
+    margin-bottom: 31px;
+}
+
+.wiliam__btn{
+    border-radius: 5px;
+    background: #F50103;
+    font-size: 34px;
+    font-weight: 800;
+    padding: 20px 45px;
+    display: inline-block;
+    text-align: center;
+}
+
+.wiliam__btn:hover{
+    color: aqua;
+    transition: all .3s;
+}
+
+.wiliam__image{
+    width: 100%;
+    max-width: 661px;
+    margin-top: -120px;
+    margin-right: -200px;
+}
+
+.wiliam__image img{
+    max-width: 100%;
+}
+
+.social{
+    background: #F50103;
+}
+
+.social__contacts{
+    display: flex;
+    padding: 66px 434px;
+    justify-content: center;
+    gap: 129px;
+    margin-top: -9px;
+}
+
+.social__link:hover{
+    text-decoration: underline;
+    color: #F55529;
+    transition: all .3s;
+}
+
+.social__link{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social__link--3{
+    white-space: nowrap;
 }
