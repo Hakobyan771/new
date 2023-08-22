@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    background: #101010;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+}
+
+/* font-family: 'Cormorant', serif;
+font-family: 'Gelasio', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; */
