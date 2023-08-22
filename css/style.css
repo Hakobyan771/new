@@ -35,9 +35,9 @@ button {
     padding: 0 15px;
 }
 
-.body{
+body{
+    background-color: #101010;
     font-family: 'Lato', sans-serif;
-    background: #101010;
     font-size: 18px;
     font-weight: 400;
     color: #fff;
@@ -50,3 +50,40 @@ font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif; */
+
+.header{
+    padding: 70px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.menu__item{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.menu__item:hover{
+    text-decoration: underline;
+    color: #F55529;
+    transition: all .3s;
+}
+
+.header__btn{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F50103;;
+    color: #FFF;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
