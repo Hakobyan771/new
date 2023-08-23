@@ -234,6 +234,31 @@ font-family: 'Work Sans', sans-serif; */
     position: relative;
 }
 
+.numbered--1{
+    font-family: 'Work Sans', sans-serif;
+    color: #0F0D1C;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.numbered--2{
+    font-family: 'Work Sans', sans-serif;
+    color: #0F0D1C;
+    font-size: 22px;
+    font-weight: 700;
+}
+.numbered--3{
+    font-family: 'Work Sans', sans-serif;
+    color: #0F0D1C;
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+  
+  
+  
+  
+
 .rectangle::before{
     content: "";
     background-image: url(../images/Icon.svg);
@@ -309,10 +334,28 @@ font-family: 'Work Sans', sans-serif; */
     font-weight: 500;
     background: #F55529; 
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 16px 42px;
     justify-content: center;
     align-items: center;
     letter-spacing: 0.7px;
     text-transform: uppercase;
     gap: 10px;
+}
+
+.problems__btn-link{
+    display: inline-block;
+    position: relative;
+}
+
+.problems__btn-link::before{
+    content: "";
+    background-image: url(../images/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 50px;
+    position: absolute;
+    top: 125%;
+    right: -31px;
+    transform: translateY(-50%);
 }
