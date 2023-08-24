@@ -498,6 +498,45 @@ font-family: 'Work Sans', sans-serif; */
 
 
  
+ .clients{
+    padding: 68px 388px;
+    background: #1D2027;
+    margin-top: 180px;
+}
+
+.clients__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.clients__text{
+    font-family: 'Open Sans', sans-serif;
+    color: #F1F1F1;
+    font-weight: 300;
+} 
+
+.clients__inner{
+    display: flex;
+    gap: 70px;
+}
+
+.clients__img{
+    display: flex;
+    justify-content: flex-start;
+    gap: 129px;
+}
+
+.clients__img-logo{
+    max-width: 145px;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
