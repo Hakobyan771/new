@@ -6,3 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
       rectangle.textContent = `${formattedIndex} ${rectangle.textContent}`;
     });
   });
+
+const menuBtn = document.querySelector('.header__burger');
+const menuMobile = document.querySelector('.menu__list');
+
+menuBtn.addEventListener('click', () => {
+    menuMobile.classList.toggle('active');
+});
