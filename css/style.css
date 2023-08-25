@@ -618,6 +618,12 @@ body{
     display: none;
 }
 
+@media (max-width: 1090px){
+    .social__contacts{
+        flex-wrap: wrap;
+    }
+}
+
 
 @media (max-width: 992px) {
     .header__burger {
@@ -671,6 +677,17 @@ body{
     .menu__list li {
         margin: 0 0 20px 0;
     }
+    .social__contacts {
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .social__link {
+        font-size: 28px;
+        text-align: center;
+    }
 }
 @media (max-width: 768px) {
     .william__inner {
@@ -698,6 +715,7 @@ body{
         margin-right: 0;
         margin-top: 84px;
     }
+    
 }
 
 @media(max-width: 500px){
